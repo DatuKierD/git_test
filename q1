@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+    int W,L,A
+
+    clrscr();
+    printf("Enter Length and Width of the Rectangle: ");
+    scanf("%d%d",&L,&W); //default separator is space
+    A=L*W
+    printf("The Area of Rectangle is %d\n",A);
+    getch();
+    return(0);
+}
